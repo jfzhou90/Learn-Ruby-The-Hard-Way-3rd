@@ -9,7 +9,7 @@ This is for Linux/osX only
 pwd          - print working directory               (shows you which directory you're in)
 hostname     - my computer's network name            (shows the network name)
 mkdir        - make directory                        (making new folder)
-cd           - change directory                      (going into the next or previous folder)
+cd           - change directory                      (going into the next or previous folder, cd ~ will return you to the main directory))
 ls           - list directory                        (a list of folders or files in the directory you're in)
 rmdir        - remove directory                      (removes EMPTY folders only)
 pushd        - push directory                        (a method to save the directory you're in, so you can switch back and forth)
