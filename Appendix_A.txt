@@ -16,7 +16,7 @@ pushd        - push directory                        (a method to save the direc
 popd         - pop directory                         (a method to remove the saved directory)
 cp           - copy a file or directory              (Able to copy entire folder)
 mv           - move a file or directory              (could also be used to rename)
-less         - page through a file                   (???)
+less         - page through a file                   (reads a file on a new screen, there's also a command name more, does just like cat)
 cat          - print the whole file                  (reads the text in the file)
 xargs        - execute arguments                     (???)
 find         - find files                            (???)
