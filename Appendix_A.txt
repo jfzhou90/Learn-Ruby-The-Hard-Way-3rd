@@ -9,15 +9,28 @@ This is for Linux/osX only
 pwd          - print working directory
 hostname     - my computer's network name
 mkdir        - make directory
+  example: mkdir temp/stuff
+mkdir -p     - Allows to create more folders (folders in folders)
+  example: mkdir -p temp/stuff/things/orange/apple/pear/grape
 cd           - change directory
+cd ~         - change to main directory
+cd ..        - change to the directory that the current directly was in
+cd ../..     - two level higher
 ls           - list directory
 rmdir        - remove directory
+rm           - remove files
+rm
 pushd        - saves current directory
 popd         - pop directory
-cp           - copy a file or directory
-mv           - move a file or directory
+cp           - copy a file or directory, can also copy a file into folder
+  example: cp neat.txt awesome.txt
+cp -r        - copy directory with files in it
+  example: cp something newplace
+mv           - move a file or directory or rename a directory
+more         - page through a file
 less         - page through a file
-cat          - print the whole file
+cat          - print the whole file, able to print multiple files
+  example: cat Appendix_A.txt README.md
 xargs        - execute arguments
 find         - find files
 grep         - find things inside files
@@ -29,6 +42,8 @@ export       - export/set a new environment variable
 exit         - exit the shell
 sudo         - DANGER! become super user root DANGER!
 clear        - clears the screen
+touch        - making empty files
+  example: touch ex01.rb
 
 This is for Windows only
 robocopy     - robust copy
