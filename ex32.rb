@@ -8,6 +8,11 @@ for number in the_count
   puts "This is count #{number}"
 end
 
+# doing it with ruby style
+the_count.each do |i|
+  puts "This is try #{i}"
+end
+
 # same as above, but in a more Ruby style
 # this and the next one are the preferred
 # way ruby for-loops are written
@@ -30,5 +35,10 @@ elements = []
   elements.push(i)
 end
 
-# now we cna print them out too
+(0...5).each do |i|
+  puts "Try with ... Adding #{i} to the list."
+  elements.push(i)
+end
+
+# now we can print them out too
 elements.each {|i| puts "Element was: #{i}"}
