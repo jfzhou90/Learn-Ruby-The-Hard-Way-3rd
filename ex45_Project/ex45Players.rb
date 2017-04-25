@@ -1,5 +1,3 @@
-
-
 class Patient
   attr_accessor :health
   def initialize()
